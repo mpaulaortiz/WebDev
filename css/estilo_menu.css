@@ -1,0 +1,105 @@
+*{
+	margin: 0px;
+	padding:0px;
+}
+
+	body
+	{
+			background-image: url("fondo3.jpg");
+			/*background-color: blue;*/
+			font-family:tahoma, Geneva, sans-serif;
+			font-style:normal;
+			font-weight:15px; 
+			
+	}
+
+
+#contenedor	{
+		width:960px;
+		margin: auto;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		background: #0000; 
+	}
+
+header{
+		height: 100px;
+		background:#FFF3E0;
+		border-radius:5%;
+	}	
+
+header h1{
+		font-size: 25px;
+		text-align: center;
+		line-height:100px; 
+		border-image: 34px;
+		}
+
+header h1 img #foto
+	{
+	 position: relative;
+   top: -16px;
+   right: -706px;
+	}
+nav{
+	background:;
+	height:50px;
+	}
+
+nav ul li {
+	list-style: none;
+	list-style-position:center; 
+	float: left;
+	margin-left:35px;
+	background: #C0392B;
+	padding:13px;
+	border-radius:15%;
+	line-height:25px;
+	}
+
+nav ul li a {
+	color: white;
+	text-decoration: none;
+	}
+
+#contenido {
+	width:950px; 
+	height:550px;
+	float: left;
+	background:white;
+	margin-top: 10px;
+	margin-right:10px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	}
+
+#contenido{
+	font-size: 14px;	
+	margin-right: 23px;
+	text-align: left;
+	line-height:35px;
+	text-decoration-style:fantasy;
+	}	
+
+#perfil p{
+	padding: 23px;
+}
+
+}
+
+footer{
+	background: yellow;
+	clear: both;
+}
+footer h2{
+	font-size: 40px;
+	text-align: center;
+	padding: 20px;
+	font-style: italic;
+
+}
+
+}
+
+}
+
