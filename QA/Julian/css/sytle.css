@@ -1,0 +1,16 @@
+*{
+	text-decoration: none;
+	color: black;
+}
+ul{
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+}
+.productos{
+	background: green;
+	display: flex;
+}
+img{
+	height: 100px;
+}
