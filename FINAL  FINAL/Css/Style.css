@@ -1,0 +1,22 @@
+.Productos{
+	display:none; /** oculta el div productos**/ 
+	width: 100%;
+	display: flex;
+}
+
+img{
+	height: 100px;
+}
+ul{
+	display: flex;
+}
+
+.productos-hombre,.productos-mujer,.productos-niño{
+	display:flex;
+	background: green;
+}
+.Tienda{
+	display:none;
+}
+
+

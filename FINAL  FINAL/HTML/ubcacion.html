@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style>
+            html, body {
+                height: 100%;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+            .header {
+                background-color: rgb(230, 230, 230);
+                width: 100%;
+            }
+            .header-title {
+                text-align: center;
+            }
+            .header-content {
+                left: 35%;
+            }
+            .nav {
+                background-color: black;
+                text-align: center;
+                width: 100%;
+                
+            }
+            .nav ul {
+                display: inline-block;
+                margin: 0 auto;
+                list-style-type: none;
+                background-color: black;
+                overflow: hidden;
+            }
+            .nav li {
+                float: left;
+                padding: 16px;
+                
+            }
+            .nav li:hover {
+                background-color: #333333;
+            }
+            .nav li a {
+                color: white;
+                text-decoration: none;
+                
+            }
+            .nav li a:hover {
+                background-color: #333333;
+            }
+            .selected-item {
+                background-color: #333333;
+            }
+            .main-content {
+                border-color: #f3f3f3;
+                border-style: solid;
+                width: 70%;
+                height: 100%;
+                margin: 0 auto;
+                padding: 20px 20px 20px 20px;
+            }
+            .footer {
+                width: 100%;
+                color: white;
+                background-color: black;
+                text-align: center;
+                margin-bottom: 0;
+                font-weight: lighter;
+                padding: 10px
+            }
+            .mapa{
+            	display:flex;
+            	margin: 0 auto;
+            	padding: 20px 20px 20px 20px;
+            }
+            .mapa aside {
+            	margin: 0 auto;
+            	padding: 20px 20px 20px 20px;
+            }
+            .mapa aside img 
+            {
+            	margin: 0 auto;
+            	padding: 25px 15px 15px 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="header">
+            <div class="header-content">
+                <div class="header-title">
+                    <img width="200" src="https://openclipart.org/image/2400px/svg_to_png/184749/Jiu-jitsu.png"/>
+                    <h1>柔術 - JuiJitsu</h1>
+                </div>
+                <nav class="nav">
+                    <ul>
+                        <li class="nav-item selected-item"><a href="#">Información Básica</a></li>
+                        <li class="nav-item selected-item"><a href="Contact.html"> Contacto</a>Team</li>
+                        <li class="nav-item"><a href="ubcacion.html"> Ubicación </a></li>
+                        <li class="nav-item"><a href="miembros_css.html">Equipo </a></li>
+                        <li class="nav-item"><a href="Tienda.html "> Tienda</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="main-content">
+           <article>
+                <nav class="nav">
+                    <ul>
+                        <li class="nav-item selected-item"><a href="#">Item 1</a></li>
+                        <li class="nav-item"><a href="#">Item 1</a></li>
+                        <li class="nav-item"><a href="#">Item 1</a></li>
+                        <li class="nav-item"><a href="#">Item 1</a></li>
+                        <li class="nav-item"><a href="#">Item 1</a></li>
+                    </ul>
+                </nav>
+                <header><h2> Nuestra Ubicación </h2></header>
+             <div class="mapa">	           	
+             	
+             	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.130136291084!2d-74.11674213362188!3d4.747426289272845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f847d651c3827%3A0xa5c0a4b824cc291e!2sCl.+142+Bis+A%2C+Bogot%C3%A1!5e0!3m2!1ses!2sco!4v1540153992368" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <aside>
+                 		<p> Calle  98 # 21- 18 </p>
+        	 			<p> Horario de Atención: De Lunes a Sabado de 7:00 am a 6:00 pm</p>
+						<p> Móvil: 301 426 70 59 </p>  
+						<p> Fijo:  4536416 </p>	
+		        
+		        	<a href="QA\Contact.html">
+		        	<h1> Para Preguntas y Contacto </h1>
+		        	<img width="350"src="https://image.freepik.com/vector-gratis/ilustracion-personajes-concepto-viaje_53876-40812.jpg"/>
+		  			</a>
+		        
+		        </aside>
+
+			    </div>
+	           </article>       
+        </div>
+       
+        <footer class="footer">
+            <p> Autor: Maria Paula Ortiz <br />
+                Autor: Jhonathan Troncoso <br />
+            </p>
+        </footer>
+    </body>
+</html>
